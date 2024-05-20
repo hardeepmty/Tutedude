@@ -48,12 +48,12 @@ body {
 }
 
 .login-btn {
-  background-color: #e0e0e0;
-  color: #333;
+  background-color: #ffffff;
+  color: #992E9D;
 }
 
 .signup-btn {
-  background-color: #B73BBE;
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
   color: white;
 }
 

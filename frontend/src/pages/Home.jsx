@@ -5,6 +5,7 @@ import Testimonials from './Testimonials'
 import Overview from './Overview'
 import Refund from './Refund'
 
+
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
       <Curriculum/>
       <Refund/>
       <Testimonials/>
+      
     </div>
   )
 }
