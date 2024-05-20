@@ -120,6 +120,9 @@ body {
     padding: 0px;
     font-size: small;
   }
+  .offer-box{
+    max-width: 200px;
+  }
 
 }
 

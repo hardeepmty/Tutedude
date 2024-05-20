@@ -99,4 +99,7 @@ h1 span {
   .view-curriculum {
     margin-top: 10px;
   }
+  .header .h1 .span{
+    text-align: center;
+  }
 }
