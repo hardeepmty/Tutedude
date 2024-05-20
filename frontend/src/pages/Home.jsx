@@ -14,7 +14,6 @@ const Home = () => {
       <Curriculum/>
       <Refund/>
       <Testimonials/>
-      
     </div>
   )
 }
