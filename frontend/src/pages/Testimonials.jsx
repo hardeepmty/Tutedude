@@ -1,9 +1,10 @@
 import React from 'react'
+import Carousel from '../components/Carousel'
 
 const Testimonials = () => {
   return (
     <div>
-      testimoni8als
+     <Carousel/>
     </div>
   )
 }

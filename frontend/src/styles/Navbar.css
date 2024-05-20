@@ -22,7 +22,7 @@ body {
   margin: auto;
 }
 
-.logo a {
+.name a {
   font-size: 1.5em;
   font-weight: bold;
   color: #333;
@@ -58,7 +58,7 @@ body {
 }
 
 .secondary-navbar {
-  background-color: #1d1c1c;
+  background-color: #3B3B3E;
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -82,9 +82,13 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #CFD0D2;
   font-weight: 500;
   position: relative;
+}
+
+.nav-links a:hover{
+  color: white;
 }
 
 .nav-links a::after {
@@ -120,7 +124,7 @@ body {
     font-size: x-small;
   }
 
-  .logo a{
+  .name a{
     margin-left: 0px;
   }
 }
