@@ -19,7 +19,7 @@ const Navbar = () => {
       <ul className="nav-links">
         <li><a href="#">Overview</a></li>
         <li><a href="#">Curriculum</a></li>
-        <li><a href="#">Features</a></li>
+        <li><a href="#">Refund</a></li>
         <li><a href="#">Testimonials</a></li>
       </ul>
     </div>

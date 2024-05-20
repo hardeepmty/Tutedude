@@ -27,6 +27,7 @@
   color: #595961;
   margin-bottom: -5px;
   font-family: "Poppins";
+  width: 250px;
 }
 
 .hero-text-wrapper {
@@ -34,6 +35,7 @@
 }
 
 .hero-text-wrapper h1 {
+  margin-top: 20px;
   font-size: 66px;
   margin-bottom: 20px;
   color: #595961;
@@ -49,7 +51,7 @@
 .hero-buttons {
   margin-top: 30px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .hero-buttons button {
@@ -64,6 +66,9 @@
 .hero-buttons button:nth-child(1) {
   background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
   box-shadow: 0px 8px 48px -10px #992E9D80;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
 .hero-buttons button:nth-child(2) {
@@ -74,6 +79,9 @@
   gap: 6px;
   border-radius: 16px 0px 0px 0px;
   opacity: 0px;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
 
@@ -172,9 +180,29 @@
   .hero-container .iit{
     margin-left: 20px;
     margin-bottom: 0px;
+    width: 300px;
   }
   .statistics-section {
     display: none; /* Hide the section on mobile screens */
+  }
+  .iit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .full-width-image {
+    display: none;
   }
 }
 

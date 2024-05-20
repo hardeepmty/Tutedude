@@ -35,6 +35,7 @@
 }
 
 .old{
+  margin-top: 100px;
   background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,5 +51,8 @@
   .program img.map-mobile {
     display: block;
     width: 345px;
+  }
+  .old{
+    margin-top: 30px;
   }
 }

@@ -8,7 +8,7 @@ const Overview = () => {
       <div className="hero-section">
         <div className="hero-container">
 
-          <div className='iit' style={{ border: "2px solid #FFA50B", width: "250px", padding: "5px", fontSize: "small", borderRadius:"20px" }}>
+          <div className='iit' style={{ border: "2px solid #FFA50B", padding: "5px", fontSize: "small", borderRadius:"20px" }}>
             <h3 style={{ textAlign: "center", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px" }}><img style={{width:"20px"}} src='/images/cap.png'alt='cap'/>  An IIT Delhi Alumni Initiative</h3>
           </div>
 
@@ -36,6 +36,7 @@ const Overview = () => {
             </div>
           </div>
         </div>
+        <img src='/images/map3.png' className='full-width-image' alt='Map' />
       </div>
 
       
