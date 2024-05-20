@@ -20,7 +20,7 @@ const Overview = () => {
               A specially crafted Tech Kickstarter, <span style={{ fontWeight: "bold" }}>with 5+ extensive online courses.</span>
             </p>
             
-            <div class="extra" style={{marginTop:"-10px"}}>
+            <div class="extra" style={{marginTop:"-10px", fontFamily:"Poppins"}}>
                   <div class="course-hero">
                     <div class="course-hero-container">
                       <button>Personal Mentorship</button>
@@ -31,8 +31,8 @@ const Overview = () => {
                 </div>
 
             <div className="hero-buttons">
-              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Montserrat", fontWeight:"bold" }}>Enroll Now <img style={{width:"20px"}} src='/images/plane.png'/></button>
-              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Montserrat", fontWeight:"bold" }}>Know More <img style={{width:"20px"}} src='/images/mark.png'/></button>
+              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Poppins", fontWeight:"bold" }}>Enroll Now <img style={{width:"20px"}} src='/images/plane.png'/></button>
+              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Poppins", fontWeight:"bold" }}>Know More <img style={{width:"20px"}} src='/images/mark.png'/></button>
             </div>
           </div>
         </div>

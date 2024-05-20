@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.refund-offer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+}
+
+.header{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.header h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #686972;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header .highlight {
+  color: rgba(183, 59, 190, 1);
+}
+
+.offer-box {
+  background-color: #9b51e0;
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.offer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seats-left {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.refund-offer-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.time-left {
+  font-size: 1em;
+}
+
+.steps {
+  text-align: center;
+}
+
+.steps h3 {
+  font-size: 2em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  color: #450D45;
+}
+
+.step-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  background-color: #9b51e0;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-details h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.step-details p {
+  color: #777;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .step-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header{
+    text-align: left;
+    padding: 0px;
+    font-size: small;
+  }
+}

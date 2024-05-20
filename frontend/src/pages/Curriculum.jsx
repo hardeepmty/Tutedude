@@ -21,21 +21,21 @@ const Curriculum = () => {
             <h2>MERN Stack</h2>
             <p>Master the MERN stack for high-demand projects.</p>
           </div>
-          <a href="#" className="view-curriculum">View Curriculum</a>
+          <a href="#" className="view-curriculum" style={{ textAlign: "center", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px" }}><img style={{width:"20px"}} src='/images/eye.png'/>View Curriculum</a>
         </div>
         <div className="course-item">
           <div className="course-info">
             <h2>Data Structure & Algorithm</h2>
             <p>Excel in Data Structures and Algorithms for interview success.</p>
           </div>
-          <a href="#" className="view-curriculum">View Curriculum</a>
+          <a href="#" className="view-curriculum" style={{ textAlign: "center", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px" }}><img style={{width:"20px"}} src='/images/eye.png'/>View Curriculum</a>
         </div>
         <div className="course-item">
           <div className="course-info">
             <h2>Competitive Programming</h2>
             <p>Excel in Data Structures and Algorithms for interview success.</p>
           </div>
-          <a href="#" className="view-curriculum">View Curriculum</a>
+          <a href="#" className="view-curriculum" style={{ textAlign: "center", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px" }}><img style={{width:"20px"}} src='/images/eye.png'/>View Curriculum</a>
         </div>
       </div>
     </div>
