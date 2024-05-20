@@ -31,8 +31,8 @@ const Overview = () => {
                 </div>
 
             <div className="hero-buttons">
-              <button>Enroll Now</button>
-              <button>Know More</button>
+              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Montserrat", fontWeight:"bold" }}>Enroll Now <img style={{width:"20px"}} src='/images/plane.png'/></button>
+              <button style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:"small", gap:"10px", fontFamily:"Montserrat", fontWeight:"bold" }}>Know More <img style={{width:"20px"}} src='/images/mark.png'/></button>
             </div>
           </div>
         </div>

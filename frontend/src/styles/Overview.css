@@ -25,7 +25,7 @@
 .hero-container .iit{
   margin-left: 80px;
   color: #595961;
-  margin-bottom: -35px;
+  margin-bottom: -5px;
 }
 
 .hero-text-wrapper {
@@ -60,8 +60,13 @@
   cursor: pointer;
 }
 
-.hero-buttons button:first-child {
+.hero-buttons button:nth-child(1) {
   background-color: #992E9D;
+}
+
+.hero-buttons button:nth-child(2) {
+  color: #992E9D;
+  background-color: white;
 }
 
 
