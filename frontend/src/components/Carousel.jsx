@@ -8,7 +8,7 @@ const Carousel = () => {
 
   return (
     <div className='car-body'>
-      <h1>Top Companies Hiring <span style={{ color: "orange" }}>Data Scientist</span></h1>
+      <h1>Top Companies Hiring <span className='new'>Data Scientist</span></h1>
       <div className='marquee'>
         <div className='marquee-inner'>
           {continuousLogos.map((logo, index) => (

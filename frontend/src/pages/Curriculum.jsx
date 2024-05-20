@@ -6,7 +6,7 @@ const Curriculum = () => {
     <div className="course-curriculum">
       <div className="header" style={{textAlign:"center"}}>
         <span className="badge" >DATASCIENCE COURSE LEARNING PATH</span>
-        <h1><span>Data Science </span><span style={{color:"#4C4D52"}}>Course Curriculum</span></h1>
+        <h1><span className='new'>Data Science </span><span style={{color:"#4C4D52"}}>Course Curriculum</span></h1>
       </div>
       <div className="course-list">
         <div className="course-item">

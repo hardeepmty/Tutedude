@@ -62,12 +62,18 @@
 }
 
 .hero-buttons button:nth-child(1) {
-  background-color: #992E9D;
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+  box-shadow: 0px 8px 48px -10px #992E9D80;
 }
 
 .hero-buttons button:nth-child(2) {
   color: #992E9D;
   background-color: white;
+  width: Hug (175px)px;
+  height: Hug (75px)px;
+  gap: 6px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
 }
 
 

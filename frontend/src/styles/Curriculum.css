@@ -28,6 +28,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   font-family: "Poppins";
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -102,4 +103,16 @@ h1 span {
   .header .h1 .span{
     text-align: center;
   }
+  .course-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.new {
+  background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

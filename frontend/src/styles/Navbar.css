@@ -55,11 +55,19 @@ body {
 .signup-btn {
   background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
   color: white;
+  width: Hug (105px)px;
+  height: Hug (48px)px;
+  padding: 12px 24px 12px 24px;
+  gap: 6px;
+  border-radius: 14px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+  box-shadow: 0px 8px 24px -10px #992E9D80;
 }
 
 .secondary-navbar {
   background-color: #3B3B3E;
-  padding: 10px 0;
+  padding: 20px 0;
   position: fixed;
   width: 100%;
   top: 80px; /* Adjust based on the height of the main navbar */
@@ -126,5 +134,11 @@ body {
 
   .name a{
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 1380px){
+  .name a{
+    margin-left: 5px;
   }
 }

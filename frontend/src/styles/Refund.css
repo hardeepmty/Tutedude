@@ -2,13 +2,13 @@ body {
   font-family: "Poppins";
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 .refund-offer {
   text-align: center;
   padding: 20px;
-  background-color: #f7f7f7;
+  background-color: white;
   margin-top: 50px;
 }
 
@@ -163,4 +163,11 @@ body {
   border: 3px solid white;
   background-color: #FFD700;
   border-radius: 50%;
+}
+
+@media (max-width: 768px){
+  .slider-circle{
+    top: 65%;
+    left: 120px;
+  }
 }
