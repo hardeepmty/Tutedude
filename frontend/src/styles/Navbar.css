@@ -27,6 +27,8 @@ body {
   font-weight: bold;
   color: #333;
   text-decoration: none;
+
+  margin-left: -100px;
 }
 
 .auth-buttons {
@@ -57,12 +59,12 @@ body {
 
 .secondary-navbar {
   background-color: #1d1c1c;
-  border-bottom: 1px solid #e0e0e0;
   padding: 10px 0;
   position: fixed;
   width: 100%;
   top: 80px; /* Adjust based on the height of the main navbar */
   z-index: 999;
+  padding-bottom: 1px;
 }
 
 .nav-links {
@@ -114,6 +116,10 @@ body {
 
   .secondary-navbar {
     top: 80px; /* Adjust based on the height of the main navbar */
-    font-size: smaller;
+    font-size: x-small;
+  }
+
+  .logo a{
+    margin-left: 0px;
   }
 }
